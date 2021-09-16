@@ -1,5 +1,5 @@
 
-<div style="color:green; font-weight:bold; font-size:2rem;">Serving Optimized Web Images With Node.JS</div>
+#Serving Optimized Web Images With Node.JS
 <hr/>
 <br />
 
