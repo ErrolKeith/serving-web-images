@@ -1,5 +1,5 @@
 
-<h1 style="color:green;">Serving Optimized Web Images With Node.JS</h1>
+# **Serving Optimized Web Images With Node.JS**
 <hr/>
 <br />
 
