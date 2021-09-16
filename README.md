@@ -1,9 +1,9 @@
 
-# Serving Optimized Web Images With Node.JS
+<h1 style="color:green;">Serving Optimized Web Images With Node.JS</h1>
 <hr/>
 <br />
 
-## This is a node project to show how to optimize images for the web rendering. 
+## This is a node project to show how to optimize images for web rendering. 
 <br />
 
 <br />
