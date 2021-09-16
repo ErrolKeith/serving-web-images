@@ -7,6 +7,11 @@ app.use(express.json())
 const path = require('path') //used to set up the index.html file path.
 const sharp = require('sharp') //require in the sharp package.
 
+sharp('./server-images/workspace.jpg').resize({ height:660, width:1100}).toFile('./public/images/workspace1100x660.jpg')
+sharp('./server-images/workspace.jpg').resize({ height:330, width:550}).toFile('./public/images/workspace550x330.jpg')
+sharp('./server-images/workspace.jpg').resize({ height:165, width:225}).toFile('./public/images/workspace225x165.jpg')
+
+
 app.use('/', function(req,res){
     res.sendFile(path.join(__dirname + '/index.html'))
     //__dirname : It will resolve to your project folder.
@@ -14,7 +19,4 @@ app.use('/', function(req,res){
 
 app.listen(3000)
 
-sharp('./server-images/workspace.jpg').resize({ height:660, width:1100}).toFile('./public/images/workspace1100x660.jpg')
-sharp('./server-images/workspace.jpg').resize({ height:330, width:550}).toFile('./public/images/workspace550x330.jpg')
-sharp('./server-images/workspace.jpg').resize({ height:165, width:225}).toFile('./public/images/workspace225x165.jpg')
 
