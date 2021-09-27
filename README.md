@@ -7,7 +7,7 @@
 <br />
 
 <br />
-<p style="font-size:1.2rem;">1. The first step is to install the sharp package with npm. Type the following command into terminal, and npm will install the sharp.</p>
+<p style="font-size:1.2rem;">1. The first step is to install the sharp package with npm. Type the following command into terminal, and npm will install the sharp package.</p>
 <br />
 
 ```js
