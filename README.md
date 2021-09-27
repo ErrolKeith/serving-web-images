@@ -39,7 +39,7 @@ In the `index.html` file you will see the following:
 <br>
 <img style="border-radius:7px;" src="./images/workspace550x330.jpg" width="550" height="330" alt="test image content is irrelevant">
 <br>
-<img style="border-radius:7px;" src="./images/workspace225x165.jpg" width=225" height="165" alt="test image 2 content is irrelevant">
+<img style="border-radius:7px;" src="./images/workspace225x165.jpg" width="225" height="165" alt="test image 2 content is irrelevant">
 ```
 <br/>
 
